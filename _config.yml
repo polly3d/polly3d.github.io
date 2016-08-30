@@ -1,24 +1,74 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+title: Polly3d | 王的技术博客
+name: 王的技术博客
+email: qqdreamfly@gmail.com
+description: wang，PHP工程师，从事web相关的开发工作，熟悉Laravel框架。
+keywords: Laravel,PHP
+skill_keywords: [PHP, Javascript, HTML+CSS, Swift, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text]
 
-# Permalinks
-permalink:        pretty
+timezone:    PRC
+encoding: "utf-8"
 
-# Setup
-title:            王的技术博客
-tagline:          'some thing about for leaning programme'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://polly3d.github.io/
+url: https://polly3d.github.io/
+baseurl:  "/"
+domain:    polly3d.github.io
+permalink:     /articles/:year/:month/:title.html
+paginate_path: 'page:num'
+paginate:   10
+source_code: https://github.com/polly3d/polly3d.github.io
 
-author:
-  name:           'Wang'
-  url:            https://polly3d.github.io/
+# Build settings
+lsi:         false
+excerpt_separator: "\n\n"
 
-paginate:         5
+source:      .
+destination: ./_site
 
-# Custom vars
-version:          2.0.0
+quiet:    false
+defaults: []
 
-github:
-  repo:           https://github.com/polly3d/polly3d.github.io
+markdown:    kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  line_numbers: true
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-paginate
+
+disqus:
+  id: polly3d
+
+google:
+    analytics_id: ''
+
+# navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: https://github.com/polly3d
+    label: GitHub
+    target: _blank
+
+  -
+    href: /bookmark
+    label: Bookmark
+
+  -
+    href: /about
+    label: About
+
+public_repositories: []
+popular_repos: []
+contribute_repos: ['polly3d/LaravelKit']

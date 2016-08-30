@@ -1,9 +1,24 @@
 ---
 layout: page
-title: About
+title: 关于
+menu: About
 ---
+{% assign current_year = site.time | date: '%Y' %}
 
-PHP程序员，目前专注于Laravel开发。
+wang，PHP开发者一枚，喜欢Laravel，喜欢写程序。
 
-github:[polly3d](https://github.com/polly3d)
+## keywords
+<div class="btn-inline">
+{% for keyword in site.skill_keywords %} <button class="btn btn-outline" type="button">{{ keyword }}</button> {% endfor %}
+</div>
 
+### 综合技能
+
+| 名称 | 熟悉程度
+|--:|:--|
+| PHP | ★★★★★ |
+| javascript | ★☆☆☆☆ |
+| Linux | ★★☆☆☆ |
+| Markdown | ★★☆☆☆ |
+| C | ★★☆☆☆ |
+| Photoshop | ★★☆☆☆ |
