@@ -10,12 +10,10 @@ class: padY30 mark
 不断的重复才能加深记忆，因此记录下一些踩过的坑，让这些坑的印象更加的深刻一些。
 
 ## laravel
-----
 
 ### ORM的Polymorphic Relation
 
 ## linux 相关
-----
 
 ### vim与命令行之前的快捷切换
 
