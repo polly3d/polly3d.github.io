@@ -66,6 +66,10 @@ navs:
     label: Bookmark
 
   -
+    href: /hole
+    label: 踩坑记
+
+  -
     href: /about
     label: About
 
