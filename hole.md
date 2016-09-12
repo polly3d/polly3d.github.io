@@ -25,4 +25,6 @@ class: padY30 mark
 * 解压：
 * 压缩：
 
-学习效率的问题
+## git 相关
+
+* [提交github后，无绿点图](https://polly3d.github.io//articles/2016/09/why_no_green_point.html)
