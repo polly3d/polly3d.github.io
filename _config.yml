@@ -75,4 +75,4 @@ navs:
 
 public_repositories: []
 popular_repos: []
-contribute_repos: ['polly3d/LaravelKit']
+contribute_repos: ['polly3d/LaravelKit','polly3d/bbs']
