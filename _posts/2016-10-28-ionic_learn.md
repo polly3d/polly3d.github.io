@@ -14,7 +14,7 @@ title: Ionic学习笔记
 * [ionic调试方法总结](http://blog.csdn.net/ioniconline/article/details/50162685)
 * [Build a Mobile App with Angular 2 and Ionic 2](https://scotch.io/tutorials/build-a-mobile-app-with-angular-2-and-ionic-2)
 * [Exploring Nav Hierarchy in the Ionic 2 Tabs Page](https://webcake.co/exploring-nav-hierarchy-in-the-ionic-2-tabs-page/)
-* 
+* [Using Cordova Plugins in Ionic 2 with Ionic Native](http://www.joshmorony.com/using-cordova-plugins-in-ionic-2-with-ionic-native/)
 
 
 # 开发中的坑
