@@ -12,6 +12,9 @@ title: Ionic学习笔记
 * [ionic开发篇之那些年我们踩过的坑](http://blog.csdn.net/yourlin/article/details/48268361)
 * [使用ionic2开发一个登录功能](http://www.cnblogs.com/madyina/p/5970814.html)
 * [ionic调试方法总结](http://blog.csdn.net/ioniconline/article/details/50162685)
+* [Build a Mobile App with Angular 2 and Ionic 2](https://scotch.io/tutorials/build-a-mobile-app-with-angular-2-and-ionic-2)
+* [Exploring Nav Hierarchy in the Ionic 2 Tabs Page](https://webcake.co/exploring-nav-hierarchy-in-the-ionic-2-tabs-page/)
+* 
 
 
 # 开发中的坑
