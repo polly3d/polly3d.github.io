@@ -85,6 +85,7 @@ login(): void {
 * 将`%项目位置%\platforms\android\CordovaLib\project.properties`中的target改为对应SDK版本，版本号需要与上一步相同；
 * 运行命令`ionic emulate andorid`，运行模拟器。
 
+*特别说明：如果Android SDK 版本安装不正确，会有一堆的坑。而且，在使用命令行打包是时，需要下载gradle。这个过程很慢，但也有解决办法。虽然网上有解决办法，但下载完gradle后，还是会下载一堆依赖。所以，最好的办法，还是翻出去，这样网络会好一点*
 
 ## 调试方法
 
