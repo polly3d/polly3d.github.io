@@ -98,6 +98,17 @@ login(): void {
 * 打开手机的开发者模式，访问电脑chrome的 chrome://inspect ， 点击要inspect的app，会打开熟悉的chrome developer tool.
 * 点击inspect，打开chrome debugger tool.
 
+## phpstorm突然提示找不到某个东西（类），无法编译
+
+注：这个只出现在phpstorm（IDE）里面。在命令行下不会有这样的问题。
+
+比如，使用Promise的时候，提示*can't find name Promise*。这个是由于新版本所有的内容都使用@type了。不再使用typings。
+具体见：[文档](https://github.com/driftyco/ionic/blob/master/CHANGELOG.md#typings)
+
+造成这种问题，主要是phpstorm里面无代码提示，无法编译。
+解决办法：
+* 在phpstorm里面进行设置。settings -> Languages & Frameworks -> JavaScript -> set language。将language设置为es6。
+
 
 
 
