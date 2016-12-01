@@ -18,6 +18,7 @@ title: Ionic学习笔记
 * [所有的@type文件地址](https://www.npmjs.com/~types)
 * [你不懂JS: 异步与性能 第一章: 异步: 现在与稍后](http://www.jianshu.com/p/8b985ea85e30)
 * [JavaScript函数式编程](https://zhuanlan.zhihu.com/p/21714695)
+* [DoChat](https://github.com/wujun4code/DoChat)
 
 
 # 开发中的坑
